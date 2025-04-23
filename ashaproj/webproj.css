@@ -277,12 +277,9 @@
     font-family: Crete round;
 }
 
-.language{
+.language p{
     display: flex;
     gap: 20px;
-}
-
-.language p{
     font-family: 'Inter', sans-serif;
     border: 2px solid white;
     background-color: #FFFFFF3D;
