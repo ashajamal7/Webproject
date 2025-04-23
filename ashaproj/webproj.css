@@ -210,10 +210,10 @@
 .project {
   border-color: #091e42;
   background: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0) 50%,
-      rgba(0, 0, 0, 0.8) 100%
-    ),
+    to bottom,
+    rgba(0, 0, 0, 0) 50%,
+    rgba(0, 0, 0, 0.8) 100%
+  ),
     url(background1.jpg);
   background-size: cover;
   background-position: center;
@@ -239,10 +239,10 @@
   align-self: flex-end;
   color: white;
   background: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0.2) 50%,
-      rgba(0, 0, 0, 1) 100%
-    ),
+    to bottom,
+    rgba(0, 0, 0, 0.2) 50%,
+    rgba(0, 0, 0, 1) 100%
+  ),
     url(background3.jpg);
   background-size: cover;
   background-position: center;
@@ -263,10 +263,10 @@
 .website {
   color: white;
   background: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0.2) 50%,
-      rgba(0, 0, 0, 1) 100%
-    ),
+    to bottom,
+    rgba(0, 0, 0, 0.2) 50%,
+    rgba(0, 0, 0, 1) 100%
+  ),
     url(background2.jpg);
   background-size: cover;
   background-position: center;
