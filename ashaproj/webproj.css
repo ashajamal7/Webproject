@@ -396,7 +396,7 @@ hr{
 
 #first_name{
     border:none;
-    border-bottom: solid 2px #DBD8D7
+    border-bottom: solid 2px #DBD8D7;
     outline: none;
     width: 330px;
     height: 48px;
