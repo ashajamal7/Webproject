@@ -195,12 +195,13 @@
     background-color:white;
     align-items: center;
     min-height: 400px;
+    gap: 20px
 }
 
 .container div{
     height: 448px;
     width: 390px;
-    margin-left: 10px;
+    margin-left: 0px;
     margin-top: 30px;
     margin-bottom: 30px;
     border-color: #091E42;
@@ -280,14 +281,17 @@
     display: flex;
     gap: 20px;
 }
+.language p{
+    display: flex;
+    margin-left: 10px;
+
+}
 
 .language p{
     font-family: 'Inter', sans-serif;
     border: 2px solid white;
     background-color: #FFFFFF3D;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 5px 10px;
     height: 21px;
     overflow: hidden;
 }
