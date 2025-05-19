@@ -16,7 +16,12 @@
                 <a href = "#portofolio"> Portofolio</a>
                 <a href = "#about"> About</a>
                 <a href = "#contact"> Contact</a>
-                <a href = "#"> <img src="Disabled.png"/></a>
+                <a href = "#" onclick="openPopup()"> <img src="/image/Disabled.png"/></a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
         </nav>
     </header>
@@ -28,15 +33,15 @@
                 <div class="text_links">
                     
                     <div class="media_links">
-                        <a href ="#"><img src="github.svg"/></a>
+                        <a href ="#"><img src="/image/github.svg"/></a>
 
-                        <a href ="#"><img src="Linkedin icon.svg"/></a>
+                        <a href ="#"><img src="/image/Linkedin icon.svg"/></a>
 
-                        <a href ="#"><img src="angel list.svg"/></a>
+                        <a href ="#"><img src="/image/angel list.svg"/></a>
 
-                        <a href ="#"><img src="twitter.svg"></a>
+                        <a href ="#"><img src="/image/twitter.svg"></a>
 
-                        <a href ="#"><img src="medium.svg"/></a>
+                        <a href ="#"><img src="/image/medium.svg"/></a>
                     </div>
 
                     <div class="text">
@@ -54,7 +59,32 @@
                 </div>
                 
                 <div class="fp_image">
-                    <img src="Illustration-header.svg"/>
+                    <img src="/image/Illustration-header.svg"/>
+                </div>
+            </div>
+            <div id="overlay-pg">
+                <div id="popup-pg">
+                    <div class="popup-header">
+                        <button class="x-button" onclick="closePopup()">X</button>
+                        <h2 class="pophead">Keeping track of hundreds of components website</h2>
+                        <div class="popup-btn">
+                            <button class="button1">HTML</button>
+                            <button class="button1">Bootstrap</button>
+                            <button class="button2">Ruby on Rails</button>
+                        </div>                    
+                    </div>
+                </div>
+                <div class="popup-content">
+                    <div class="popup-img">
+                        <img src="/image/Snapshoot Portfolio.png" alt="Popup Image">
+                    </div>
+                    <div >
+                        <p class="poptext">Lorem Ipsum is simply dummy text of the printing and <br> typesetting industry. Lorem Ipsum has been <br>the industry's standard dummy text ever since the 1500s,<br> when an unknown printer took a galley of type and <br>scrambled it 1960s..</p>
+                        <br> <br>
+                        <p class="poptext">Lorem Ipsum is simply dummy text of the printing and <br>typesetting industry. Lorem Ipsum has been the<br> industry's standard dummy text ever since the 1500s,<br> when an unknown printer took a galley of type and <br>scrambled it 1960s with the releax map lapora verita.</p>
+                        <button class="button3"> See Live <img src="/image/Icon-see live.svg" alt="see -icon" class="see"></button>
+                        <button class="button4">See source<img src ="/image/Frame.svg" alt ="see source" class="Frame"></button>
+                    </div>
                 </div>
             </div>
         </section>
@@ -68,7 +98,7 @@
 
             <div class ="multipost">
                 <div class="yoga_img">
-                    <img src ="yoga.jpg"/>
+                    <img src ="/image/yoga.jpg"/>
                 </div>
 
                 <div class="descr_lang">
@@ -93,7 +123,7 @@
                     </div>
 
                     <div class="buttons">
-                        <button class ="btn"><h5>See project</h5></button>
+                        <button class ="btn" onclick="openPopup()"><h5>See project</h5></button>
                     </div>
                 </div>
             </div>
@@ -101,7 +131,7 @@
             <div class="container">
                 <div class="project" id="project1">
                     <div class="buttons" >
-                        <button class ="btn1" id="btns4"><h5>See project</h5></button>
+                        <button class ="btn1" id="btns4" onclick="openPopup()"><h5>See project</h5></button>
                     </div>
                 </div>
 
@@ -111,9 +141,9 @@
                     <br>reads; no accounts or sign-ups required.
                     <br>Has been the industry's standard.</p>
                     <div class="language">
-                        <p>HTML</p>
-                        <p>Bootstrap</p>
-                        <p>Ruby</p>
+                        <button class="button1">HTML</button>
+                        <button class="button1">Bootstrap</button>
+                        <button class="button1">Ruby</button>
                     </div>
                 </div>
 
@@ -122,10 +152,10 @@
                     <p>A daily selection of privately personalized
                     <br>reads; no accounts or sign-ups required.
                     <br>Has been the industry's standard.</p>
-                    <div class="language">
-                        <p>HTML</p>
-                        <p>Bootstrap</p>
-                        <p>Ruby</p>
+                    <div class="language" id="web-lang">
+                        <button class="button1">HTML</button>
+                        <button class="button1">Bootstrap</button>
+                        <button class="button1">Ruby</button>
                     </div>
                 </div>
             </div>
@@ -137,9 +167,9 @@
                     <br>reads; no accounts or sign-ups required.
                     <br>Has been the industry's standard.</p>
                     <div class="language">
-                        <p>HTML</p>
-                        <p>Bootstrap</p>
-                        <p>Ruby</p>
+                        <button class="button1">HTML</button>
+                        <button class="button1">Bootstrap</button>
+                        <button class="button1">Ruby</button>
                     </div>
                 </div>
 
@@ -151,9 +181,9 @@
                     <br>reads; no accounts or sign-ups required.
                     <br>Has been the industry's standard.</p>
                     <div class="language">
-                        <p>HTML</p>
-                        <p>Bootstrap</p>
-                        <p>Ruby</p>
+                        <button class="button1">HTML</button>
+                        <button class="button1">Bootstrap</button>
+                        <button class="button1">Ruby</button>
                     </div>
                 </div>
 
@@ -163,9 +193,9 @@
                     <br>reads; no accounts or sign-ups required.
                     <br>Has been the industry's standard.</p>
                     <div class="language">
-                        <p>HTML</p>
-                        <p>Bootstrap</p>
-                        <p>Ruby</p>
+                        <button class="button1">HTML</button>
+                        <button class="button1">Bootstrap</button>
+                        <button class="button1">Ruby</button>
                     </div>
                 </div>
             </div>
@@ -188,12 +218,12 @@
                     </div><br><br>
 
                     <div class="buttons">
-                        <button class ="btn" id="btn2"><h5>Get my resume</h5></button>
+                        <button class ="btn" id="btn2" onclick="openPopup()"><h5>Get my resume</h5></button>
                     </div>
                 </div>
 
                 <div class="about_img">
-                    <img src="Frame.png"/>
+                    <img src="/image/Frame.png"/>
                 </div>
             </div> 
             <hr/>
@@ -201,7 +231,7 @@
             <div class="expertise">
                 <div class="languages">
                     <div class="exp_img">
-                        <img src = "Rectangle 55.png"/>
+                        <img src = "/image/Rectangle 55.png"/>
                         <h1>Languange</h1>
                     </div>
                     <p>Javascript</p>
@@ -212,7 +242,7 @@
                 
                 <div class="frameworks">
                     <div class="exp_img">
-                        <img src = "Rectangle 56.png"/>
+                        <img src = "/image/Rectangle 56.png"/>
                         <h1>Frameworks</h1> <br>
                     </div>
                     <p>React.js</p>
@@ -224,7 +254,7 @@
 
                 <div class="skills">
                     <div class="exp_img">
-                        <img src = "Rectangle 57.png"/>
+                        <img src = "/image/Rectangle 57.png"/>
                         <h1>Skills</h1> <br>
                     </div>
                     <p>Database Management</p>
@@ -259,24 +289,62 @@
              
                     <input type="email" id="email" name="email" placeholder="Email" required>
                     <input type="textarea" id="extra" name="extra" placeholder="Write me something" required><br>
-                    <button class ="btn" id="btn4"><h5>Get my resume</h5></button>
+                    <button class ="btn" id="btn4" onclick="openPopup()"><h5>Get my resume</h5></button>
                 </form>
             </div>
         </div>
         <div class="footer">
             <hr/>
             <div class="footer_link">
-                <a href ="#"><img src="github.svg"/></a>
+                <a href ="#"><img src="/image/github.svg"/></a>
 
-                <a href ="#"><img src="Linkedin icon.svg"/></a>
+                <a href ="#"><img src="/image/Linkedin icon.svg"/></a>
 
-                <a href ="#"><img src="angel list.svg"/></a>
+                <a href ="#"><img src="/image/angel list.svg"/></a>
 
-                <a href ="#"><img src="twitter.svg"></a>
+                <a href ="#"><img src="/image/twitter.svg"></a>
 
-                <a href ="#"><img src="medium.svg"/></a>
+                <a href ="#"><img src="/image/medium.svg"/></a>
             </div>
         </div>
     </main>
+    <script>
+            
+        function openPopup(){
+            document.getElementById('popup-pg').style.display = 'block';
+            document.getElementById('overlay-pg').style.display = 'block';
+        }
+
+       
+        function closePopup() {
+            document.getElementById('popup-pg').style.display = 'none';
+            document.getElementById('overlay-pg').style.display = 'none';
+        }
+
+        window.onload = function() {
+            closePopup();
+        };
+        const hamburger = document.querySelector('.hamburger');
+        const links = document.querySelector('.links');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            links.classList.toggle('active');
+        });
+
+        document.addEventListener('click', (e) => {
+            if (!hamburger.contains(e.target) && !links.contains(e.target)) {
+                hamburger.classList.remove('active');
+                links.classList.remove('active');
+            }
+        });
+
+        links.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                links.classList.remove('active');
+            });
+        });
+    </script>
 </body>
 </html>
